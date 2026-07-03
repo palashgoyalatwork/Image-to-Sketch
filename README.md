@@ -1,28 +1,89 @@
-# Image to Sketch Generator
+# 🎨 Image to Sketch
 
-A Python application that converts a normal image into a pencil sketch using OpenCV.
+A modern **Streamlit-based web application** that converts ordinary images into realistic pencil sketches using **OpenCV**.
 
-## Features
-- Convert images to sketch
-- Simple and beginner-friendly
-- Fast processing
+---
 
-## Technologies Used
+## ✨ Features
+
+- 🖼️ Upload any image
+- ✏️ Convert it into a realistic pencil sketch
+- ⚡ Fast image processing
+- 💻 Simple and interactive Streamlit interface
+
+---
+
+## 🛠️ Tech Stack
+
 - Python
+- Streamlit
 - OpenCV
+- NumPy
+- Pillow
 
-## How to Run
+---
 
-1. Install OpenCV:
-   ```bash
-   pip install opencv-python
-   ```
+## 📸 Screenshots
 
-2. Run:
-   ```bash
-   python app.py
-   ```
+### Home Screen
 
-## Author
+![Home Screen](screenshots/Image%20to%20Sketch%201.jpg)
 
-Palash Goyal
+---
+
+### Upload Image
+
+![Upload Image](screenshots/Image%20to%20Sketch%202.jpeg)
+
+---
+
+### Sketch Output
+
+![Sketch Output](screenshots/Image%20to%20Sketch%203.jpeg)
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/palashgoyalatwork/Image-to-Sketch.git
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📂 Project Structure
+
+```
+Image-to-Sketch/
+│── app.py
+│── sketch.py
+│── requirements.txt
+│── README.md
+│── screenshots/
+```
+
+---
+
+## 👨‍💻 Author
+
+**Palash Goyal**
+
+GitHub: https://github.com/palashgoyalatwork
+
+---
+
+⭐ If you like this project, consider giving it a star!
